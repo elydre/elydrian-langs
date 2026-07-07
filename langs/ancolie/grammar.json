@@ -1,0 +1,62 @@
+{
+    "name": "ancolie",
+    "patterns": [
+        {
+            "patterns": [
+                {
+                    "name": "keyword.control.ancolie",
+                    "match": "\\b(if|else|elif|while|for|return|func|continue|break)\\b"
+                },
+                {
+                    "name": "keyword.control.ancolie",
+                    "match": "#\\s*\\w+"
+                },
+                {
+                    "name": "keyword.type.ancolie",
+                    "match": ":|\\$"
+                }
+            ]
+        },
+        {
+            "name": "string.quoted.double.ancolie",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.ancolie",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        {
+            "name": "string.quoted.single.ancolie",
+            "begin": "'",
+            "end": "'",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.ancolie",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        {
+            "name": "constant.numeric",
+            "patterns": [
+                {
+                    "name": "constant.numeric.integer.ancolie",
+                    "match": "\\b\\d+\\b"
+                }
+            ]
+        },
+        {
+            "name": "comment.line.double-slash.ancolie",
+            "begin": "//",
+            "end": "$"
+        },
+        {
+            "name": "entity.name.function.ancolie",
+            "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=\\()"
+        }
+    ],
+    "scopeName": "source.ancolie"
+}

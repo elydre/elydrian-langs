@@ -1,0 +1,40 @@
+{
+    "name": "elydrian langs",
+    "displayName": "The Elydrian Langs",
+    "description": "syntax highlighting for elydre's programming languages",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.125.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ancolie",
+                "aliases": ["ancolie", "ancolie"],
+                "extensions": [".li"],
+                "configuration": "./langs/ancolie/config.json"
+            },
+            {
+                "id": "olivine",
+                "aliases": ["olivine", "olivine"],
+                "extensions": [".olv"],
+                "configuration": "./langs/olivine/config.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ancolie",
+                "scopeName": "source.ancolie",
+                "path": "./langs/ancolie/grammar.json"
+            },
+            {
+                "language": "olivine",
+                "scopeName": "source.olivine",
+                "path": "./langs/olivine/grammar.json"
+            }
+        ]
+    }
+}
