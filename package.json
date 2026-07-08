@@ -1,8 +1,15 @@
 {
-    "name": "elydrian langs",
+    "name": "elydrian-langs",
     "displayName": "The Elydrian Langs",
     "description": "syntax highlighting for elydre's programming languages",
     "version": "1.0.0",
+    "publisher": "elydre",
+    "license": "GPL-3.0",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/elydre/elydrian-langs.git"
+    },
     "engines": {
         "vscode": "^1.125.0"
     },
