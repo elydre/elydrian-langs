@@ -2,7 +2,7 @@
     "name": "elydrian-langs",
     "displayName": "The Elydrian Langs",
     "description": "syntax highlighting for elydre's programming languages",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "elydre",
     "license": "GPL-3.0",
     "icon": "icon.png",
@@ -20,13 +20,13 @@
         "languages": [
             {
                 "id": "ancolie",
-                "aliases": ["ancolie", "ancolie"],
+                "aliases": ["Ancolie"],
                 "extensions": [".li"],
                 "configuration": "./langs/ancolie/config.json"
             },
             {
                 "id": "olivine",
-                "aliases": ["olivine", "olivine"],
+                "aliases": ["Olivine"],
                 "extensions": [".olv"],
                 "configuration": "./langs/olivine/config.json"
             }
